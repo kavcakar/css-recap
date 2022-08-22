@@ -6,7 +6,7 @@
 
 body{
     font-family:"open sans";
-    font-weight: 700;
+    
 }
 
 nav.nav-top{
@@ -21,11 +21,17 @@ nav.nav-top img {
     float: right;
     margin: 1.5rem 1rem;
     color: white;
+    font-weight: 700;
 }
 
 .nav-top .sign-in a{
     color: white;
     text-decoration: none;
+}
+
+
+.nav-top .sign-in a:hover{
+    color:black ;
 }
 
 
